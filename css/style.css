@@ -1,14 +1,11 @@
-body {
-    background-color: green;
-}
 
 .bg-box {
     content: "";
-    display: block;
-    background-image: url(../images/egik.webp), url(../images/ponchik.png), url(../images/green-png-44873.png), url(../images/lamp-png-34914.png), url(../images/pole-zelen-trava-dom-derevya.webp);
-    width: 1900px;
-    height: 800px;
-    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
-    background-position: left, right, bottom, top, center;
-    background-size: 60px, 60px, 60px 550px, 60px, 550px;
+    background-color: green;
+    background-image: url(../images/green-png-44873.png), url(../images/lamp-png-34914.png), url(../images/egik.webp), url(../images/ponchik.png), url(../images/pole-zelen-trava-dom-derevya.webp);
+    width: 1200px;
+    height: 600px;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat;
+    background-position: bottom, top, left, right, center;
+    background-size: 120px, 40px, 40px, 40px, 500px;
 }
